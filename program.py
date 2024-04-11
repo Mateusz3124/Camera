@@ -92,8 +92,8 @@ while running:
             move_matrix[0] += 15
         if pressed[pygame.K_k]:
             d -= 5
-            if d < 80:
-                d = 80
+            if d < 400:
+                d = 400
         if pressed[pygame.K_i]:
             d += 5
     screen.fill((0, 0, 0))
