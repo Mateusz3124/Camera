@@ -21,7 +21,7 @@ running = True
 start_point = (0, 0)
 end_point = (0, 0)
 
-d = 200
+d = 400
 
 order = [[0,1], [0,2], [0,4], [1,3], [1,5], [2,3], [2,6], [3,7], [4,5], [4,6], [7,6], [7,5]]
 
@@ -39,7 +39,7 @@ def drawFigure(pointsToDraw):
         pygame.draw.line(screen, WHITE, map(start), map(end), 2)
 figure = createFigures()
 mouse_start_pos = None
-figure = move((0,0,2000), figure)
+figure = move((0,0,2500), figure)
 while running:
     move_matrix = [0,0,0]
     rotation_matrix = [0,0,0]
